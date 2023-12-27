@@ -1,0 +1,38 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all log files
+*.log
+
+# Ignore all .env files
+*.env
+
+# Ignore Jupyter Notebook
+*.ipynb
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Pytest cache
+.pytest_cache/
+
+# Ignore Python distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore testing files
+test_*
+
+# Ignore setup files
+setup.py
